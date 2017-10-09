@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MyToast</string>
+    <string name="ToastTittle">自定义toast显示更精彩</string>
+</resources>
