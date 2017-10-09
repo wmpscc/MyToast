@@ -13,10 +13,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        mToast.makeText(this,getString(R.string.ToastTittle), Toast.LENGTH_SHORT);
-//        mToast.show();
+        mToast=Toast_.makeText(this,getString(R.string.ToastTittle),Toast.LENGTH_LONG,getResources().getDrawable(R.drawable.pic02_icon));
 
-        mToast.makeText(this,getString(R.string.ToastTittle),Toast.LENGTH_SHORT).show();
-
+        mToast.setGravity(Gravity.TOP|Gravity.CENTER,0,0);
+        mToast.show();
     }
 }
